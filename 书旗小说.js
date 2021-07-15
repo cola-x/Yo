@@ -41,7 +41,6 @@ Length = 0
             }
         }
     }
-
     //获取极速版视频任务
     if ($request && $request.url.indexOf("getAdInfo") >= 0 && $request.url.indexOf("resourceId=719") >= 0 && $request.url.indexOf("appVer=1") >= 0) {
 
@@ -73,10 +72,6 @@ Length = 0
             }
         }
     }
-
-
-
-
     //获取极速版补签签到页
     if ($request && $request.url.indexOf("adserver") >= 0 && $request.url.indexOf("getAdInfo") >= 0 && $request.url.indexOf("resourceId=720") >= 0) {
 
